@@ -4,19 +4,19 @@ using Dalamud.Plugin;
 using System.IO;
 using Dalamud.Interface.Windowing;
 using Dalamud.Plugin.Services;
-using SamplePlugin.Windows;
+using RemotePartyNotifier.Windows;
 
-namespace SamplePlugin
+namespace RemotePartyNotifier
 {
     public sealed class Plugin : IDalamudPlugin
     {
-        public string Name => "Sample Plugin";
+        public string Name => "Remote Party Notifier";
         private const string CommandName = "/pmycommand";
 
         private DalamudPluginInterface PluginInterface { get; init; }
         private ICommandManager CommandManager { get; init; }
         public Configuration Configuration { get; init; }
-        public WindowSystem WindowSystem = new("SamplePlugin");
+        public WindowSystem WindowSystem = new("RemotePartyNotifier");
 
         private ConfigWindow ConfigWindow { get; init; }
         private MainWindow MainWindow { get; init; }

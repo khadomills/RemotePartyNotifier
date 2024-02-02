@@ -1,0 +1,15 @@
+{
+  "Author": "khadomills",
+  "Name": "Remote Party Notifier",
+  "Punchline": "Get notified on your phone when your Party Finder listing fills or a duty pops!",
+  "Description": "Local server element for the RemotePartyNotifier App, avaliable on Android or iOS",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "qol",
+    "plugin",
+    "khado",
+    "PF",
+    "Party Finder",
+    "Ultimate"
+  ]
+}
